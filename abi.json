@@ -1,0 +1,187 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "assess_next": {
+      "params": [
+        [
+          "project_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "cancel_project": {
+      "params": [
+        [
+          "project_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "get_current_question": {
+      "params": [
+        [
+          "project_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_project": {
+      "params": [
+        [
+          "project_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_project_count": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "get_step": {
+      "params": [
+        [
+          "project_id",
+          "string"
+        ],
+        [
+          "index",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_tree": {
+      "params": [
+        [
+          "tree_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "matches_route": {
+      "params": [
+        [
+          "project_id",
+          "string"
+        ],
+        [
+          "expected_route",
+          "string"
+        ],
+        [
+          "expected_tree_sha256",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "bool"
+    },
+    "open_project": {
+      "params": [
+        [
+          "project_key",
+          "string"
+        ],
+        [
+          "tree_id",
+          "string"
+        ],
+        [
+          "project_description",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "publish_tree": {
+      "params": [
+        [
+          "tree_key",
+          "string"
+        ],
+        [
+          "jurisdiction_note",
+          "string"
+        ],
+        [
+          "tree_json",
+          "string"
+        ],
+        [
+          "source_reference",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "resolve_unclear": {
+      "params": [
+        [
+          "project_id",
+          "string"
+        ],
+        [
+          "answer",
+          "string"
+        ],
+        [
+          "authority_note",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "retire_tree": {
+      "params": [
+        [
+          "tree_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}

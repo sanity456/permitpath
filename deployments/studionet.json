@@ -1,0 +1,148 @@
+{
+  "contract": {
+    "abi_sha256": "359a36a89a416761a5ab1db528659c4b571cec0a1b6bfc750b8ff573820be0a8",
+    "address": "0x76b24914523dBfF377d1558958613A90Cd2ae4A2",
+    "deployed_source_sha256": "ff07deae57b782c8e6a986c799897bc007b13c0ab550d60913c9607a69b461e2",
+    "deployment_tx": "0xed026a900f672883e30805aa8bf83ae478f8ce54c74ade145d88200e562b9ec9",
+    "execution_result": "SUCCESS",
+    "schema_method_count": 12,
+    "schema_readback_exact": true,
+    "source_readback_exact": true,
+    "source_sha256": "ff07deae57b782c8e6a986c799897bc007b13c0ab550d60913c9607a69b461e2",
+    "status": "FINALIZED"
+  },
+  "correction_basis": [
+    "leader substantive payload must be independently validated and bound to every derived hash, mask, or state field",
+    "registries and fixed capacity must be owner-scoped or safely reclaimable",
+    "submission evidence must resolve to this exact deployed source and full ABI"
+  ],
+  "network": {
+    "chain_id": 61999,
+    "explorer": "https://explorer-studio.genlayer.com",
+    "name": "studionet",
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "observed": {
+    "project": {
+      "applicant": "0x6B819E364f0F82f5cBf404dfB1af622b57e96dB8",
+      "authority": "0xc19f7e430121061F085823bF90Db057e591158DA",
+      "closed_at": "2026-09-01T09:15:31.048850Z",
+      "current_node": "",
+      "description": "The project explicitly adds a new enclosed storage room to the existing house.",
+      "opened_at": "2026-09-01T09:14:48.970727Z",
+      "project_id": "0x6b819e364f0f82f5cbf404dfb1af622b57e96db8:P1",
+      "route": "BUILDING",
+      "schema": "permitpath/project/v2",
+      "state": "ROUTED",
+      "tree_id": "0xc19f7e430121061f085823bf90db057e591158da:HOME",
+      "tree_sha256": "sha256:f21c36f819f8456a3f8edaad579d859de5af130e67e076b97301a08c27b04552"
+    },
+    "strict_scalar_domains": true
+  },
+  "owner": "sanity456",
+  "repository": "permitpath",
+  "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "schema": "genlayer-intelligent-contract-correction/v4",
+  "supersedes": {
+    "address": "0x587D01515DF8c4A07424700871829Df12E50457F",
+    "reason": "Superseded by the full validator-binding and registry-isolation audit",
+    "source_sha256": "caf62908748e538afafd2662a99878618c285ecdbc0440eae213f5c2c55550f1"
+  },
+  "transactions": {
+    "assess_next_0": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_succeeded": true,
+      "finalized": true,
+      "l1_tx_hash": "0xe200b40eb53b1798dc9c6359dbfb58f069ff1c2d87e0029abba849fdf0c119e8",
+      "status": "FINALIZED",
+      "tx_hash": "0xe200b40eb53b1798dc9c6359dbfb58f069ff1c2d87e0029abba849fdf0c119e8",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE"
+      ],
+      "verified": true
+    },
+    "deploy": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_succeeded": true,
+      "finalized": true,
+      "l1_tx_hash": "0xed026a900f672883e30805aa8bf83ae478f8ce54c74ade145d88200e562b9ec9",
+      "status": "FINALIZED",
+      "tx_hash": "0xed026a900f672883e30805aa8bf83ae478f8ce54c74ade145d88200e562b9ec9",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ],
+      "verified": true
+    },
+    "open_project": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_succeeded": true,
+      "finalized": true,
+      "l1_tx_hash": "0x7a5e126fad13b0e3c0b4cb7f0817b905dd0f1de3d8f744b96f44cf9622d6af9f",
+      "status": "FINALIZED",
+      "tx_hash": "0x7a5e126fad13b0e3c0b4cb7f0817b905dd0f1de3d8f744b96f44cf9622d6af9f",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE"
+      ],
+      "verified": true
+    },
+    "publish_tree": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_succeeded": true,
+      "finalized": true,
+      "l1_tx_hash": "0x2447a9c1f0f9963f894a4b894d09898c16b1d8296893a1e7f0badb922972b345",
+      "status": "FINALIZED",
+      "tx_hash": "0x2447a9c1f0f9963f894a4b894d09898c16b1d8296893a1e7f0badb922972b345",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ],
+      "verified": true
+    }
+  },
+  "verification": {
+    "all_executions_succeeded": true,
+    "all_transactions_finalized": true,
+    "deployed_schema_exact": true,
+    "deployed_source_exact": true,
+    "latest_final_state_readback": true,
+    "leader_payload_injection_tests_passed": true,
+    "local_direct_test_count": 11,
+    "local_five_validator_test_count": 1,
+    "post_consensus_boundary_tests_passed": true,
+    "registry_isolation_tests_passed": false,
+    "synthetic_public_fixture": true
+  },
+  "verified_at": "2026-09-01T09:16:26.694646Z",
+  "wallet": {
+    "cross_repository_wallet_reused": false,
+    "external_encrypted_keystores": true,
+    "fresh_per_repository": true,
+    "other_owner_wallet_reused": false,
+    "owner": "sanity456",
+    "prior_address_overlap_count": 0,
+    "private_material_in_repository": false,
+    "repository": "permitpath",
+    "roles": {
+      "deployer": "0xc19f7e430121061F085823bF90Db057e591158DA",
+      "role_a": "0x6B819E364f0F82f5cBf404dfB1af622b57e96dB8",
+      "role_b": "0x227EF671aA7316d30aD04042E62cB8C7ecef8362",
+      "role_c": "0xBb8378130b84685258961C4B751EdA9ff2763fB6"
+    },
+    "workspace_wallet_used": false
+  }
+}

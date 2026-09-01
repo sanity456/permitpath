@@ -1,0 +1,14 @@
+Correction summary for PermitDecisionTree
+
+We applied the Boxcomplete result-binding finding and the Baggate registry-isolation finding across the full selected twelve-repository set, including this contract.
+
+What changed in this repository:
+Each model answer is canonicalized against the exact answer set of the active frozen node both inside the validator and after consensus, so a shape-valid but node-invalid answer cannot advance the tree.
+
+Release evidence:
+Current StudioNet address: 0x76b24914523dBfF377d1558958613A90Cd2ae4A2
+Deployment transaction: 0xed026a900f672883e30805aa8bf83ae478f8ce54c74ade145d88200e562b9ec9
+Source SHA-256: ff07deae57b782c8e6a986c799897bc007b13c0ab550d60913c9607a69b461e2
+Superseded address: 0x587D01515DF8c4A07424700871829Df12E50457F
+
+The current Explorer deployment was read back after deployment and matched the repository source byte-for-byte. Its complete on-chain schema matched abi.json exactly. All recorded transactions finalized with successful execution, and the contract-specific final state was read back from StudioNet. Submission evidence must use only the current address and the commit-pinned deployment manifest; the superseded address is not active evidence.
